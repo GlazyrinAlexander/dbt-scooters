@@ -1,1 +1,19 @@
+# Артефакты сборки
+target/
+logs/
+dbt_packages/
+.dbt_history
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Секреты
 profiles.yml
+.env
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
