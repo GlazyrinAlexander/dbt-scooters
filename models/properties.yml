@@ -22,3 +22,7 @@ models:
     config:
       indexes:
         - columns: ["date"]
+  - name: "trips_age_daily"
+    description: "trips_age_daily info by user age"
+  - name: "trips_age_daily_stat"
+    description: "trips_age_daily stat by user age"
